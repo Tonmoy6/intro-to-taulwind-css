@@ -1,59 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind css</title>
-     <!-- imported tailwind css -->
+    <!-- imported tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- hghghh -->
-
-</head>
-<body>
+    <!-- Import fonts: roboto  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-roboto {
+        font-family: "Roboto", sans-serif;
+      }
+      .font-bebas {
+        font-family: "Bebas Neue", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
     <!-- Header section -->
     <header>
-        <!-- Nav section -->
-        <nav>
-
-        </nav>
-        <!--End Nav section -->
-        <!-- Banner section -->
-        <section>
-            <!-- Banner left section -->
-            <div class=""></div>
-            <!--End Banner left section -->
-            <!-- Banner Right section -->
-            <div class=""></div>
-            <!--End Banner Right section -->
-        </section>
-        <!--End Banner section -->
+      <!-- Nav section -->
+      <nav></nav>
+      <!--End Nav section -->
+      <!-- Banner section -->
+      <section>
+        <!-- Banner left section -->
+        <div class=""></div>
+        <!--End Banner left section -->
+        <!-- Banner Right section -->
+        <div class=""></div>
+        <!--End Banner Right section -->
+      </section>
+      <!--End Banner section -->
     </header>
     <!--End Header section -->
     <!-- Main Section -->
-    <main>
-        <!-- Womem cloth section -->
-        <section>
-            <h1 class=""></h1>
-            <!-- Card group -->
-            <div class="">
-            <!-- card 1 -->
-              <!-- Card image -->
-            <div class="">
-                <img src="" alt="">
-              </div>
-              <!--End Card image -->
-            <!--End card 1 -->
+    <main class="w-full px-28">
+      <!-- Womem cloth section -->
+      <section class="w-full">
+        <h1 class="text-[#363958] font-roboto font-black text-4xl">
+          W0Man Jacket
+        </h1>
+        <!-- Card group -->
+        <div class="grid grid-cols-3 w-full gap-5">
+          <!-- card 1 -->
+          <div class=" w-96">
+            <!-- Card image -->
+            <div class="w-full">
+              <img class="w-72 bg-[#F1F1F1] p-4 rounded-2xl" src="./images/jacket-1.png" alt="" />
             </div>
-            <!--End Card group -->
-        </section>
-        <!--End Womem cloth section -->
+            <!--End Card image -->
+            <!-- Card contenr -->
+            <div class="">
+              <div class="">
+                <h3 class="">Yellow Coat Jacket</h3>
+                <p class="">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+
+              <div class="">
+                <h4 class="">$234</h4>
+                <button class="">BUY NOW</button>
+              </div>
+            </div>
+            <!--End Card contenr -->
+          </div>
+
+          <!--End card 1 -->
+          <!-- card 2 -->
+          <div class=" w-96">
+            <!-- Card image -->
+            <div class="w-full">
+              <img class="w-72 bg-[#F1F1F1] p-4 rounded-2xl" src="./images/jacket-1.png" alt="" />
+            </div>
+            <!--End Card image -->
+            <!-- Card contenr -->
+            <div class="">
+              <div class="">
+                <h3 class="">Yellow Coat Jacket</h3>
+                <p class="">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+
+              <div class="">
+                <h4 class="">$234</h4>
+                <button class="">BUY NOW</button>
+              </div>
+            </div>
+
+            <!--End Card contenr -->
+          </div>
+
+          <!--End card 2 -->
+          <!-- card 3 -->
+          <div class=" w-96">
+            <!-- Card image -->
+            <div class="w-full">
+              <img class="w-72 bg-[#F1F1F1] p-4 rounded-2xl" src="./images/jacket-1.png" alt="" />
+            </div>
+            <!--End Card image -->
+            <!-- Card contenr -->
+            <div class="">
+              <div class="">
+                <h3 class="">Yellow Coat Jacket</h3>
+                <p class="">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+
+              <div class="">
+                <h4 class="">$234</h4>
+                <button class="">BUY NOW</button>
+              </div>
+            </div>
+
+            <!--End Card contenr -->
+          </div>
+
+          <!--End card 3 -->
+        </div>
+        <!--End Card group -->
+      </section>
+      <!--End Womem cloth section -->
     </main>
     <!--End Main Section -->
     <!-- Footer Section -->
-    <footer>
-
-    </footer>
+    <footer></footer>
     <!-- End Footer Section -->
-
-</body>
+  </body>
 </html>
